@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudyFragment">
+
+    <ImageView
+        android:id="@+id/studyView"
+        android:layout_width="wrap_content"
+        android:scaleType="fitCenter"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="220dp"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/studyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="175dp"
+        android:textSize="40sp"
+        android:fontFamily="@font/font"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        android:text="TextView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:text="공부 뭐 하지?"
+        android:fontFamily="@font/font"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:layout_marginTop="60dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/studyButton"
+        android:layout_width="204dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/buttonripple"
+        android:textSize="30sp"
+        android:text="추천 받기!"
+        android:fontFamily="@font/font"
+        android:textColor="@color/white"
+        />
+
+</FrameLayout>
